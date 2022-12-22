@@ -1,13 +1,16 @@
 .blog-container{
-    width: 400px;
+    width: 700px;
+    display: flex;
+    gap: 1rem;
 }
 .img-container img{
-    width: 400px;
+    width: 300px;
+    height: 300px;
 }
 .content-container{
-
+  
 }
-.btn-container ul{
+.content-container ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
