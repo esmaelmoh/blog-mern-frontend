@@ -18,19 +18,19 @@ const Post = () => {
                 <ul>
                     <div className="btn-wrapper">
                     <button>👍</button>
-                    <p>11 likes</p>
+                    <p className='par'>11 likes</p>
                     </div>
                     <div className="btn-wrapper">
                     <button>👎</button>
-                    <p>11 dilikes</p>
+                    <p className='par'>11 dilikes</p>
                     </div>
                     <div className="btn-wrapper">
                     <button><GoComment/></button>
-                    <p>comment</p>
+                    <p className='par'>comment</p>
                     </div>
                     <div className="btn-wrapper">
                         <button><BsBookmark/> </button>
-                        <p>saved</p>
+                        <p className='par'>saved</p>
                     </div>
                 </ul>
             </div>
