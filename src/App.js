@@ -8,8 +8,8 @@ import Register from './pages/Register/Register';
 function App() {
   return (
     < >
-      <Sidebar/>
       <Posts/>
+      <Sidebar/>
     </>
   );
 }
