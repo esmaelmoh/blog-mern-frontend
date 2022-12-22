@@ -8,8 +8,8 @@
 .newone{
     overflow: hidden;
     width: 100vw;
-    /* height: 100vh; */
-    aspect-ratio: 960/600;
+    height: 100vh;
+    /* aspect-ratio: 960/600; */
     background-image: url('../public/wave-haikei\ \(2\).svg');
     object-fit:fill;
     background-position: center;
