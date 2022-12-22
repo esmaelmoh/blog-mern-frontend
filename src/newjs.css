@@ -66,10 +66,10 @@
     cursor: pointer;
     padding: 1rem ;
     border: none;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 1rem;
     color: white;
-    background: linear-gradient(to right top , rgb(33, 120, 201),rgba(26, 12, 102, 0.699));
+    background: linear-gradient(to right top , #00e0ff,rgba(153, 255, 221, 0.699));
     border-radius: 10px;
     font-family: 'newfont';
 }
