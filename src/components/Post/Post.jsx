@@ -15,7 +15,12 @@ const Post = () => {
                     Voluptates eligendi alias esse.</p>
             </div>
             <div className="btn-container">
-
+                <ul>
+                    <button>AAA</button>
+                    <button>AAA</button>
+                    <button>AAA</button>
+                    <button>AAA</button>
+                </ul>
             </div>
         </article>
   )
