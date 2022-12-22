@@ -58,7 +58,7 @@
 .register-input-field-new{
     border: 1.5px solid white;
     border-radius: 1rem;
-    padding: 1rem 1rem;
+    padding: 0.8rem 1rem;
     color: white;
     /* background-color: hsla(0, 0%, 100%, 0.692)  */
     background-color: inherit;
