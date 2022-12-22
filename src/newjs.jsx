@@ -14,7 +14,7 @@ const NewJs = () => {
             <button type="submit" className='login-btn-new'>Login</button>
             <div className="line"></div>
             <button type="submit" className='login-btn-new'>Sign In With Google  </button>
-            <p style={{color:'rgba(0, 0, 0, 0.705)',paddingTop:'0.7rem', textAlign:'center'}}>Don't have an account? <span style={{color:" #3963cb",fontWeight:'bold'}}>Sign Up Now!</span> </p>
+            <p style={{color:'white',paddingTop:'0.7rem', textAlign:'center'}}>Don't have an account? <span style={{color:" #3963cb",fontWeight:'bold'}}>Sign Up Now!</span> </p>
         </form></section>  
     </>
   )
