@@ -11,7 +11,8 @@
 .blog-container{
     box-shadow: 3px 5px 5px rgba(112, 73, 44, 0.062);
     font-family: 'newfont';
-    width: 900px;
+    min-width: 500px;
+    max-width: 900px;
     display: flex;
     align-items: center;
     background-color: rgb(247, 255, 254);
