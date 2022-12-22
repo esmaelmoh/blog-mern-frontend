@@ -36,6 +36,7 @@
     /* background:linear-gradient(to right top , rgba(255, 255, 255, 0.699),rgba(255, 255, 255, 0.301)); */
     border-radius: 1rem;
     width: 60vw;
+    max-width: 600px;
     height: 70vh;
     padding: 2rem 1rem;
     padding-top: 3rem;
@@ -75,7 +76,7 @@
     color: white;
     /* color: #002233; */
     background: linear-gradient(to right top , #00e0ff,rgba(153, 255, 221, 0.699));
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.507);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.219);
     border-radius: 10px;
     font-family: 'newfont';
 }
