@@ -36,8 +36,8 @@
 .content-container ul .btn-wrapper{
     display: flex;
     background-color: blue;
-    /* justify-content: center; */
-    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
 }
 .content-container ul .btn-wrapper button{
     font-size: 1.3rem;
