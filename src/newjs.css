@@ -52,7 +52,8 @@
     font-size: 2.5rem;
     margin: 1rem 0;
     margin-bottom: 2.5rem;
-    color:  #ffffff ;
+    /* color:  #ffffff ; */
+    color:  linear-gradient(to right top , #00e0ff,rgba(153, 255, 221, 0.699));
 }
 .login-input-field-new{
     border: 1.5px solid white;
@@ -71,7 +72,8 @@
     border: none;
     font-weight: bolder;
     font-size: 1rem;
-    color: #002233;
+    color: white;
+    /* color: #002233; */
     background: linear-gradient(to right top , #00e0ff,rgba(153, 255, 221, 0.699));
     border-radius: 10px;
     font-family: 'newfont';
