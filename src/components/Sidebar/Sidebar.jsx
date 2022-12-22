@@ -14,7 +14,7 @@ const Sidebar = () => {
                 <img src="./background5.jpg" alt="" />
             </div>
             <h1>Esmael Mohammed</h1>
-            <br /><br /><br />
+            <br />
             <div className="sidebar-menus">
                 <div className="menu-container">
                     <h1><RxHome/></h1>

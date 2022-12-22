@@ -22,7 +22,7 @@
     background-color: white;
 }
 .img-container img{
-    margin-top: 5rem;
+    margin-top: 3rem;
     height: 100px;
     width: 100px;
     border-radius: 50px;
@@ -33,6 +33,7 @@
 .sidebar-menus .menu-container{
     margin: 3rem 0;
     display: flex;
+    padding: 0.3rem 0;
     gap: 2rem;
     /* align-items: center; */
     /* justify-content: space-between; */
