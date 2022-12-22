@@ -16,7 +16,7 @@
     background-color: white;
 }
 .img-container img{
-    margin-top: 2rem;
+    margin-top: 5rem;
     height: 100px;
     width: 100px;
     border-radius: 50px;
@@ -29,5 +29,6 @@
     display: flex;
     gap: 2rem;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    border-bottom: 1px solid black;
 }
