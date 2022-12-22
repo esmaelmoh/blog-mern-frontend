@@ -6,7 +6,7 @@ const Post = () => {
   return (
         <article className='blog-container'>
             <div className="img-container">
-                <img src="./blogpic1.jpg" alt="" srcset="" />
+                <img src="./background5.jpg" alt="" srcset="" />
             </div>
             <div className="content-container">
                 <h3>News</h3>
