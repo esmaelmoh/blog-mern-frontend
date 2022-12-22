@@ -2,7 +2,7 @@ import React from 'react'
 import './Sidebar.css'
 const Sidebar = () => {
   return (
-    <section>
+    <section className='container'>
         <div className="sidebar">
             <div className="img-container">
                 <img src="" alt="" />

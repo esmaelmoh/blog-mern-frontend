@@ -1,7 +1,11 @@
 .container{
-    background-color: rgb(244, 255, 251);
+    background-color: rgb(229, 255, 246);
+    width: 100vw;
+    height: 100vh;
 }
 .sidebar{
     width: 300px;
     position: fixed;
+    height: 100vh;
+    background-color: white;
 }
