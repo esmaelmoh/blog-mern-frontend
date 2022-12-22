@@ -29,6 +29,7 @@
     padding: 0 2.3rem
 }
 .content-container ul button{
+    font-size: 1.6rem;
     background-color: inherit;
     border: none;
 }
