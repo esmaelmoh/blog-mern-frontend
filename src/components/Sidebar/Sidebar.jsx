@@ -5,7 +5,7 @@ const Sidebar = () => {
     <section className='container'>
         <div className="sidebar">
             <div className="img-container">
-                <img src="" alt="" />
+                <img src="./background5.jpg" alt="" />
             </div>
             <div className="sidebar-menus">
                 <div className="menu-container">
