@@ -28,7 +28,7 @@
     margin: 3rem 0;
     display: flex;
     gap: 2rem;
-    align-items: center;
+    /* align-items: center; */
     /* justify-content: space-between; */
     border-bottom: 1px solid black;
 }
