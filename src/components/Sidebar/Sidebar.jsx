@@ -2,7 +2,7 @@ import React from 'react'
 import './Sidebar.css'
 import {FiHeart} from 'react-icons/fi'
 import {RxHome} from 'react-icons/rx'
-import {RxFaRegBookmarkHome} from 'react-icons/rx'
+import {FiBookmark} from 'react-icons/fi'
 import {MdOutlineNotificationsNone} from 'react-icons/md'
 const Sidebar = () => {
   return (
@@ -23,7 +23,7 @@ const Sidebar = () => {
                     <h3>Notifications</h3>
                 </div>
                 <div className="menu-container">
-                    <h1><FaRegBookmark/></h1>
+                    <h1><FiBookmark/></h1>
                     <h3>Bookmarks</h3>
                 </div>
                 <div className="menu-container">
@@ -32,7 +32,7 @@ const Sidebar = () => {
                 </div>
                 <div className="menu-container">
                     <h1><FiHeart/></h1>
-                    <h3>Liked</h3>
+                    <h3>My Profie</h3>
                 </div>
                 
             </div>
