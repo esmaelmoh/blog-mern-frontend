@@ -40,5 +40,8 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.185);
 }
 .sidebar-menus .menu-container h3{
-   color: rgba(0, 0, 0, 0.521);
+   color: rgba(0, 0, 0, 0.747);
+}
+h4{
+    color: rgba(0, 0, 0, 0.699);
 }
