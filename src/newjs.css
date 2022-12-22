@@ -6,6 +6,9 @@
     /* overflow: hidden; */
 }
 .newone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
     width: 100vw;
     height: 100vh;
@@ -15,6 +18,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 3rem;
+    /* margin-bottom: 5rem; */
 }
 @font-face {
     font-family: 'newfont';
