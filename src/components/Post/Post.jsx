@@ -29,12 +29,9 @@ const Post = () => {
                     <p>comment</p>
                     </div>
                     <div className="btn-wrapper">
-                    <button><BsBookmark/> </button>
-                    <p>saved</p>
+                        <button><BsBookmark/> </button>
+                        <p>saved</p>
                     </div>
-                    <button>👎<span>11 dilikes</span></button>                    
-                    <button><BsBookmark/> <span>saved</span></button>                    
-                    <button><GoComment/>   <span>comment</span></button>                    
                 </ul>
             </div>
         </article>
