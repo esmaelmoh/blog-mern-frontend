@@ -14,8 +14,8 @@ const Post = () => {
         
             
                 <ul>
-                    <button>AAA</button>
-                    <button>AAA</button>
+                    <button>👍</button>
+                    <button>👎</button>
                     <button>AAA</button>
                     <button>AAA</button>
                 </ul>
