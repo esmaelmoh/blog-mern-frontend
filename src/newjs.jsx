@@ -4,7 +4,7 @@ const NewJs = () => {
   return (
     <>
       <section className='newone'>
-      <form action=""className='login-form'>
+      <form action=""className='login-form-new'>
             <h1 className='login-title'>Login</h1>
             <label htmlFor="">Username:</label>
             <input type="text" name className='login-input-field'  id="" />

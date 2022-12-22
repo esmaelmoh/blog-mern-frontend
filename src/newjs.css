@@ -16,3 +16,55 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+@font-face {
+    font-family: 'newfont';
+    /* src:url(../../fonts/JosefinSans-VariableFont_wght.ttf)  */
+    src:url(./fonts/JosefinSans-VariableFont_wght.ttf) 
+  } 
+@font-face {
+    font-family: 'addis';
+    /* src:url(../../fonts/JosefinSans-VariableFont_wght.ttf)  */
+    src:url(./fonts/addis.ttf) 
+  } 
+
+.login-form-new{
+    /* background:linear-gradient(to right top , rgba(255, 255, 255, 0.699),rgba(255, 255, 255, 0.301)); */
+    border-radius: 1rem;
+    width: 60vw;
+    height: 70vh;
+    padding: 2rem 1rem;
+    padding-top: 3rem;
+    font-family: 'newfont';
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.login-form label{
+    color: rgba(0, 0, 0, 0.705);
+}
+.login-title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    margin-bottom: 2.5rem;
+    color:  #0c2c7eaf ;
+}
+.login-input-field{
+    border: none;
+    padding: 1rem 1rem;
+    background-color: #ffffff5e 
+}
+.login-input-field:focus{
+    outline: none;
+}
+.login-btn{
+    cursor: pointer;
+    padding: 1rem ;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    background: linear-gradient(to right top , rgb(33, 120, 201),rgba(26, 12, 102, 0.699));
+    border-radius: 10px;
+    font-family: 'newfont';
+}
