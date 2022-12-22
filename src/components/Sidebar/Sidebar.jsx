@@ -16,17 +16,22 @@ const Sidebar = () => {
                     <h3>Liked</h3>
                 </div>
                 <div className="menu-container">
-                    <h1>2</h1>
-                    <h3>Notification</h3>
+                    <h1><FiHeart/></h1>
+                    <h3>Liked</h3>
                 </div>
                 <div className="menu-container">
-                    <h1>2</h1>
-                    <h3>Notification</h3>
+                    <h1><FiHeart/></h1>
+                    <h3>Liked</h3>
                 </div>
                 <div className="menu-container">
-                    <h1>2</h1>
-                    <h3>Notification</h3>
+                    <h1><FiHeart/></h1>
+                    <h3>Liked</h3>
                 </div>
+                <div className="menu-container">
+                    <h1><FiHeart/></h1>
+                    <h3>Liked</h3>
+                </div>
+                
             </div>
         </div>
     </section>
