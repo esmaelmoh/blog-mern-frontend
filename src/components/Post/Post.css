@@ -13,7 +13,7 @@
     width: 900px;
     display: flex;
     align-items: center;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(234, 255, 252);
     gap: 1rem;
 }
 .img-container img{
@@ -21,7 +21,6 @@
     margin: 1.3rem;
     width: 200px;
     height: 200px;
-    background-color: brown;
 }
 .content-container h3,.blog-content{
     padding: 2rem;  
@@ -40,12 +39,12 @@
     align-items: center;
 }
 .content-container ul .btn-wrapper button{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     background-color: inherit;
     color: aqua;
     border: none;
 }
 .content-container ul .btn-wrapper .par{
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: rgba(0, 0, 0, 0.63);
 }
