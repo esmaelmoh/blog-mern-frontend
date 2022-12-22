@@ -1,7 +1,8 @@
 .newone{
     overflow: hidden;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
+    aspect-ratio: 960/600;
     background-image: url('../public/wave-haikei\ \(1\).svg');
     background-position: center;
     background-size: cover;
