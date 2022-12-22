@@ -13,7 +13,7 @@ const NewJs = () => {
             <br /><br />
             <button type="submit" className='login-btn-new'>Login</button>
             <div className="line"></div>
-            <button type="submit" className='login-btn-new'>Sign In With Google  </button>
+            <button type="submit" className='login-btn-new'>Sign In With Google  </button><br />
             <p style={{color:'white',paddingTop:'0.7rem', textAlign:'center'}}>Don't have an account? <span style={{color:'#00e0ff',fontWeight:'bold'}}>Sign Up Now!</span> </p>
         </form></section>  
     </>
