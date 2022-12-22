@@ -10,6 +10,7 @@
 }
 
 .sidebar{
+    font-family: 'newfont';
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -35,5 +36,5 @@
     gap: 2rem;
     /* align-items: center; */
     /* justify-content: space-between; */
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185);
 }
