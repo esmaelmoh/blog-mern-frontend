@@ -11,7 +11,7 @@ const Sidebar = () => {
     <section className='container'>
         <div className="sidebar">
             <div className="img-container">
-                <img src="./background5.jpg" alt="" />
+                <img src="./profilepic.jpg" alt="" />
             </div>
             <h4>Esmael Mohammed</h4>
             <br /><br />
