@@ -4,6 +4,10 @@
     src:url(../../fonts/JosefinSans-VariableFont_wght.ttf) 
   } 
  
+*{
+    margin: 0;
+    padding: 0;
+}
 .blog-container{
     font-family: 'newfont';
     width: 800px;
@@ -31,6 +35,7 @@
 }
 .content-container ul .btn-wrapper{
     display: flex;
+    gap: ;
     justify-content: center;
     align-items: center;
 }
@@ -40,6 +45,6 @@
     border: none;
 }
 .content-container ul .btn-wrapper p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: rgba(0, 0, 0, 0.63);
 }
