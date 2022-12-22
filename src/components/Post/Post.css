@@ -33,3 +33,6 @@
     background-color: inherit;
     border: none;
 }
+.content-container ul button span{
+    font-size: 1rem;
+}

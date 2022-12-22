@@ -14,8 +14,8 @@ const Post = () => {
         
             
                 <ul>
-                    <button>👍</button>
-                    <button>👎</button>
+                    <button>👍<span>11 likes</span></button>
+                    <button>👎<span>11 likes</span></button>
                     <button>AAA</button>
                     <button>AAA</button>
                 </ul>
