@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
 @font-face {
     font-family: 'newfont';
     /* src:url(../../fonts/JosefinSans-VariableFont_wght.ttf)  */
@@ -8,12 +14,6 @@
     /* src:url(../../fonts/JosefinSans-VariableFont_wght.ttf)  */
     src:url(../../fonts/addis.ttf) 
   } 
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* overflow: hidden; */
-}
   .login-form-new{
     border-radius: 1rem;
     width: 60vw;
@@ -35,14 +35,12 @@
     margin: 1rem 0;
     margin-bottom: 2.5rem;
     color:   #00e0ff 
-    /* color:  linear-gradient(to right top , #00e0ff,rgba(153, 255, 221, 0.699)); */
 }
 .login-input-field-new{
     border: 1.5px solid white;
     border-radius: 1rem;
     padding: 1rem 1rem;
     color: white;
-    /* background-color: hsla(0, 0%, 100%, 0.692)  */
     background-color: inherit;
 }
 .login-input-field:focus{
