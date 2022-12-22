@@ -23,7 +23,7 @@
     height: 200px;
     background-color: brown;
 }
-.content-container p,h3{
+.content-container h3{
     padding: 2rem;  
     padding-top: 0;
 }
