@@ -55,9 +55,9 @@
     color:  #ffffff ;
 }
 .login-input-field-new{
-    border: none;
+    border: 2px solid white;
     padding: 1rem 1rem;
-    background-color: hsla(0, 0%, 100%, 0.692) 
+    /* background-color: hsla(0, 0%, 100%, 0.692)  */
 }
 .login-input-field:focus{
     outline: none;
