@@ -2,6 +2,7 @@ import React from 'react'
 import './Sidebar.css'
 import {FiHeart} from 'react-icons/fi'
 import {RxHome} from 'react-icons/rx'
+import {MdOutlineNotificationsNone} from 'react-icons/md'
 const Sidebar = () => {
   return (
     <section className='container'>
@@ -17,8 +18,8 @@ const Sidebar = () => {
                     <h3>Home</h3>
                 </div>
                 <div className="menu-container">
-                    <h1><FiHeart/></h1>
-                    <h3>Liked</h3>
+                    <h1><FiHeMdOutlineNotificationsNoneart/></h1>
+                    <h3>Notifications</h3>
                 </div>
                 <div className="menu-container">
                     <h1><FiHeart/></h1>
