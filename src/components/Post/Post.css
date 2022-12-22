@@ -9,7 +9,7 @@
     width: 800px;
     display: flex;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: rgb(233, 233, 233);
     gap: 1rem;
 }
 .img-container img{

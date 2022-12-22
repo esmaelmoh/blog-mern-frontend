@@ -1,6 +1,7 @@
 import React from 'react'
 import './Post.css'
 import {BsFillBookmarkFill} from 'react-icons/bs'
+import {GoComment} from 'react-icons/go'
 const Post = () => {
   return (
         <article className='blog-container'>
@@ -18,6 +19,7 @@ const Post = () => {
                     <button>👍<span>11 likes</span></button>
                     <button>👎<span>11 dilikes</span></button>                    
                     <button><BsFillBookmarkFill/><span>saved</span></button>                    
+                    <button><GoComment/><span>comment</span></button>                    
                 </ul>
             </div>
         </article>
