@@ -13,6 +13,7 @@
 }
 .content-container p,h3{
     padding: 2rem;  
+    padding-top: 0;
 }
 .content-container ul{
     display: flex;
