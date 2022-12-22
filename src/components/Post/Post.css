@@ -24,12 +24,16 @@
     padding-top: 0;
 }
 .content-container ul{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    padding: 0 2rem
+}
+.content-container ul .btn-wrapper{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 2.3rem
 }
-.content-container ul button{
+.content-container ul .btn-wrapper button{
     font-size: 1.6rem;
     background-color: inherit;
     border: none;
