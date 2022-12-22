@@ -1,4 +1,15 @@
+@font-face {
+    font-family: 'newfont';
+    /* src:url(../../fonts/JosefinSans-VariableFont_wght.ttf)  */
+    src:url(../fonts/JosefinSans-VariableFont_wght.ttf) 
+  } 
+@font-face {
+    font-family: 'addis';
+    /* src:url(../../fonts/JosefinSans-VariableFont_wght.ttf)  */
+    src:url(../../fonts/addis.ttf) 
+  } 
 .blog-container{
+
     width: 800px;
     display: flex;
     align-items: center;
