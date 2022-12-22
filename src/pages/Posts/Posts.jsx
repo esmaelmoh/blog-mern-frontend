@@ -3,7 +3,7 @@ import Post from '../../components/Post/Post'
 import './Posts'
 const Posts = () => {
   return (
-    <div>
+    <div className='posts-containerposts-container'>
         <Post/>
         <Post/>
         <Post/>
