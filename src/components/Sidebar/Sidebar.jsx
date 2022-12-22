@@ -7,6 +7,7 @@ const Sidebar = () => {
             <div className="img-container">
                 <img src="./background5.jpg" alt="" />
             </div>
+            <h1>Esmael Mohammed</h1>
             <div className="sidebar-menus">
                 <div className="menu-container">
                     <h1>2</h1>
