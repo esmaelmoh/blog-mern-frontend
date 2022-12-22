@@ -31,7 +31,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2rem
+    padding: 0 2.5rem
 }
 .content-container ul .btn-wrapper{
     display: flex;
@@ -40,7 +40,7 @@
     align-items: center;
 }
 .content-container ul .btn-wrapper button{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     background-color: inherit;
     color: aqua;
     border: none;
