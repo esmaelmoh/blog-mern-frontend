@@ -24,9 +24,9 @@
     padding-top: 0;
 }
 .content-container ul{
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: space-between; */
+    justify-content: space-between;
     padding: 0 2rem
 }
 .content-container ul .btn-wrapper{
@@ -38,7 +38,7 @@
     background-color: inherit;
     border: none;
 }
-.content-container ul button span{
+.content-container ul .btn-wrapper p{
     font-size: 0.8rem;
     color: rgba(0, 0, 0, 0.63);
 }
