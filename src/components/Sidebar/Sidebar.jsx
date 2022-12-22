@@ -1,5 +1,6 @@
 import React from 'react'
 import './Sidebar.css'
+import {FiHeart} from 'react-icons/fi'
 const Sidebar = () => {
   return (
     <section className='container'>
@@ -11,8 +12,8 @@ const Sidebar = () => {
             <br /><br /><br />
             <div className="sidebar-menus">
                 <div className="menu-container">
-                    <h1>2</h1>
-                    <h3>Notification</h3>
+                    <h1><FiHeart/></h1>
+                    <h3>Liked</h3>
                 </div>
                 <div className="menu-container">
                     <h1>2</h1>
