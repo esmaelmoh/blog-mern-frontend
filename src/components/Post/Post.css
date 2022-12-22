@@ -9,6 +9,7 @@
     padding: 0;
 }
 .blog-container{
+    box-shadow: 10px 10px saddlebrown;
     font-family: 'newfont';
     width: 900px;
     display: flex;
