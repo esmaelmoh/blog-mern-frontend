@@ -16,8 +16,8 @@ const Register = () => {
                   <input type="text" name className='login-input-field-new'  id="" />
                   <label htmlFor="">Password:</label>
                   <input type="password" name className='login-input-field-new'  id="" />
-                  <label htmlFor="">email:</label>
-                  <input type="password" name className='login-input-field-new'  id="" />
+                  <label htmlFor="">Email Adress:</label>
+                  <input type="email" name className='login-input-field-new'  id="" />
                   <br /><br />
                   <button type="submit" className='login-btn-new'>Login</button>
                   <div className="line"></div>
