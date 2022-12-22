@@ -4,6 +4,7 @@ import {FiHeart} from 'react-icons/fi'
 import {RxHome} from 'react-icons/rx'
 import {FiBookmark} from 'react-icons/fi'
 import {CgProfile} from 'react-icons/cg'
+import {FiSettings} from 'react-icons/fi'
 import {MdOutlineNotificationsNone} from 'react-icons/md'
 const Sidebar = () => {
   return (
@@ -34,6 +35,10 @@ const Sidebar = () => {
                 <div className="menu-container">
                     <h1><CgProfile/></h1>
                     <h3>My Profie</h3>
+                </div>
+                <div className="menu-container">
+                    <h1><FiSettings/></h1>
+                    <h3>Settings</h3>
                 </div>
                 
             </div>
