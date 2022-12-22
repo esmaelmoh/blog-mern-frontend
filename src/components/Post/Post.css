@@ -5,7 +5,7 @@
   } 
  
 .blog-container{
-
+    font-family: 'newfont';
     width: 800px;
     display: flex;
     align-items: center;
