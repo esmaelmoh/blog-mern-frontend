@@ -28,7 +28,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 13rem;
+    padding-bottom: 15rem;
     /* margin-bottom: 5rem; */
 }
   .register-form-new{
@@ -51,7 +51,7 @@
     text-align: center;
     font-size: 2.5rem;
     margin: 1rem 0;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
     color:   #00e0ff 
     /* color:  linear-gradient(to right top , #00e0ff,rgba(153, 255, 221, 0.699)); */
 }
