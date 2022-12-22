@@ -40,7 +40,7 @@
     gap: 1rem;
 }
 .login-form-new label{
-    color: rgba(0, 0, 0, 0.705);
+    color: rgba(255, 255, 255, 0.705);
 }
 .login-title-new{
     text-align: center;
@@ -52,7 +52,7 @@
 .login-input-field-new{
     border: none;
     padding: 1rem 1rem;
-    background-color: #ffffff5e 
+    background-color: hsla(0, 0%, 100%, 0.692) 
 }
 .login-input-field:focus{
     outline: none;
