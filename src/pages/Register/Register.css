@@ -8,6 +8,29 @@
     /* src:url(../../fonts/JosefinSans-VariableFont_wght.ttf)  */
     src:url(../../fonts/addis.ttf) 
   } 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.newone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    /* aspect-ratio: 960/600; */
+    background-image: url('../public/wave-haikei\ \(2\).svg');
+    object-fit:fill;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 13rem;
+    /* margin-bottom: 5rem; */
+}
   .register-form-new{
     /* background:linear-gradient(to right top , rgba(255, 255, 255, 0.699),rgba(255, 255, 255, 0.301)); */
     border-radius: 1rem;
