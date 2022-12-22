@@ -8,6 +8,12 @@
     /* src:url(../../fonts/JosefinSans-VariableFont_wght.ttf)  */
     src:url(../../fonts/addis.ttf) 
   } 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
   .login-form-new{
     /* background:linear-gradient(to right top , rgba(255, 255, 255, 0.699),rgba(255, 255, 255, 0.301)); */
     border-radius: 1rem;
