@@ -18,7 +18,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 10rem;
+    padding-bottom: 13rem;
     /* margin-bottom: 5rem; */
 }
 @font-face {
@@ -58,6 +58,7 @@
     border: 1.5px solid white;
     border-radius: 1rem;
     padding: 1rem 1rem;
+    color: white;
     /* background-color: hsla(0, 0%, 100%, 0.692)  */
     background-color: inherit;
 }
