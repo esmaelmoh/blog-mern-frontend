@@ -3,8 +3,19 @@ import './newjs.css'
 const NewJs = () => {
   return (
     <>
-      <section className='newone'><h1>Nicecurves</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, porro! Molestiae quos dignissimos cupiditate ipsum autem, maiores corrupti eius aliquid eligendi enim voluptate voluptatum aut qui quis necessitatibus sed. Placeat?</p></section>  
+      <section className='newone'>
+      <form action=""className=''>
+            <h1 className='login-title'>Login</h1>
+            <label htmlFor="">Username:</label>
+            <input type="text" name className='login-input-field'  id="" />
+            <label htmlFor="">Password:</label>
+            <input type="password" name className='login-input-field'  id="" />
+            <br /><br />
+            <button type="submit" className='login-btn'>Login</button>
+            <div className="line"></div>
+            <button type="submit" className='login-btn'>Sign In With Google  </button>
+            <p style={{color:'rgba(0, 0, 0, 0.705)',paddingTop:'0.7rem', textAlign:'center'}}>Don't have an account? <span style={{color:" #3963cb",fontWeight:'bold'}}>Sign Up Now!</span> </p>
+        </form></section>  
     </>
   )
 }
