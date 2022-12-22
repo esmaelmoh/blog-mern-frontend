@@ -18,7 +18,7 @@ const Sidebar = () => {
                     <h3>Home</h3>
                 </div>
                 <div className="menu-container">
-                    <h1><FiHeMdOutlineNotificationsNoneart/></h1>
+                    <h1><MdOutlineNotificationsNone/></h1>
                     <h3>Notifications</h3>
                 </div>
                 <div className="menu-container">
