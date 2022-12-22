@@ -2,7 +2,22 @@ import React from 'react'
 import './Post.css'
 const Post = () => {
   return (
-    <div>Post</div>
+        <article>
+            <div className="img-container">
+                <img src="./wave-haikei (1).svg" alt="" srcset="" />
+            </div>
+            <div className="content-container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus illo suscipit non ut sed, 
+                    iure dolore laudantium et quibusdam error modi maiores animi incidunt omnis veritat\s? 
+                    iure dolore laudantium et quibusdam error modi maiores animi incidunt omnis veritat\s? 
+                    iure dolore laudantium et quibusdam error modi maiores animi incidunt omnis veritat\s? 
+                    iure dolore laudantium et quibusdam error modi maiores animi incidunt omnis veritat\s? 
+                    Voluptates eligendi alias esse.</p>
+            </div>
+            <div className="btn-container">
+
+            </div>
+        </article>
   )
 }
 
