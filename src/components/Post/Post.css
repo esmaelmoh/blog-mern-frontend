@@ -11,7 +11,7 @@
     height: 200px;
     background-color: brown;
 }
-.content-container p{
+.content-container p,h3{
     padding: 2rem;  
 }
 .content-container ul{
