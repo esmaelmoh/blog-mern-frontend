@@ -1,5 +1,6 @@
 import React from 'react'
 import './Post.css'
+import {BsFillBookmarkFill} from 'react-icons/bs'
 const Post = () => {
   return (
         <article className='blog-container'>
@@ -16,6 +17,7 @@ const Post = () => {
                 <ul>
                     <button>👍<span>11 likes</span></button>
                     <button>👎<span>11 dilikes</span></button>                    
+                    <button><BsFillBookmarkFill/><span>saved</span></button>                    
                 </ul>
             </div>
         </article>
