@@ -11,7 +11,7 @@
     /* height: 100vh; */
     aspect-ratio: 960/600;
     background-image: url('../public/wave-haikei\ \(1\).svg');
-    object-fit: cover;
+    object-fit:fill;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
