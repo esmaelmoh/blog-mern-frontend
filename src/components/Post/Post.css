@@ -9,7 +9,7 @@
     padding: 0;
 }
 .blog-container{
-    box-shadow: 3px 3px rgba(112, 73, 44, 0.103);
+    box-shadow: 3px 5px 5px rgba(112, 73, 44, 0.062);
     font-family: 'newfont';
     width: 900px;
     display: flex;
