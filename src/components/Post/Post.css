@@ -35,14 +35,14 @@
 }
 .content-container ul .btn-wrapper{
     display: flex;
-    background-color: blue;
+    gap: 0.5rem;
     justify-content: center;
     align-items: center;
 }
 .content-container ul .btn-wrapper button{
     font-size: 1.3rem;
     background-color: inherit;
-    background-color: blueviolet;
+    color: aqua;
     border: none;
 }
 .content-container ul .btn-wrapper .par{
