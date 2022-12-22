@@ -17,6 +17,7 @@
     align-items: center;
     background-color: rgb(247, 255, 254);
     gap: 1rem;
+    margin: 0 2rem ;
 }
 .img-container img{
     border-radius: 5px;
