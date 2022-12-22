@@ -10,17 +10,22 @@
     flex-direction: column;
     /* justify-content: center; */
     width: 300px;
-    gap: 2rem;
+    /* gap: 2rem; */
     position: fixed;
     height: 100vh;
     background-color: white;
 }
 .img-container img{
+    margin-top: 2rem;
     height: 100px;
     width: 100px;
     border-radius: 50px;
 }
+.sidebar-menus{
+    
+}
 .sidebar-menus .menu-container{
+    margin: 3rem 0;
     display: flex;
     gap: 2rem;
     align-items: center;
