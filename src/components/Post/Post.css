@@ -23,7 +23,7 @@
     height: 200px;
     background-color: brown;
 }
-.content-container h3{
+.content-container h3,.blog-content{
     padding: 2rem;  
     padding-top: 0;
 }
@@ -37,7 +37,7 @@
     display: flex;
     background-color: blue;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 .content-container ul .btn-wrapper button{
     font-size: 1.3rem;

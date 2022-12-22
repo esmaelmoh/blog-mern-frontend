@@ -10,7 +10,7 @@ const Post = () => {
             </div>
             <div className="content-container">
                 <h3>News</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus illo suscipit non ut sed, 
+                <p className='blog-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus illo suscipit non ut sed, 
                     iure dolore laudantium et quibusdam error modi maiores animi incidunt omnis veritat\s? 
                     Voluptates eligendi alias esse.</p>
         
