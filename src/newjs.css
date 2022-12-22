@@ -1,7 +1,7 @@
 .newone{
     width: 100vw;
-    height: 50vh;
-    background-image: url('../public/wave-haikei.png');
+    height: 100vh;
+    background-image: url('../public/wave-haikei.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
