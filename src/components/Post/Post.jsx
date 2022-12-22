@@ -2,7 +2,7 @@ import React from 'react'
 import './Post.css'
 const Post = () => {
   return (
-        <article>
+        <article className='blog-container'>
             <div className="img-container">
                 <img src="./wave-haikei (1).svg" alt="" srcset="" />
             </div>
