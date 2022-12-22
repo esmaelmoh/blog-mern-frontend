@@ -16,7 +16,22 @@ const Post = () => {
         
             
                 <ul>
-                    <button>👍<span>11 likes</span></button>
+                    <div className="btn-wrapper">
+                    <button>👍</button>
+                    <p>11 likes</p>
+                    </div>
+                    <div className="btn-wrapper">
+                    <button>👎</button>
+                    <p>11 dilikes</p>
+                    </div>
+                    <div className="btn-wrapper">
+                    <button><GoComment/></button>
+                    <p>comment</p>
+                    </div>
+                    <div className="btn-wrapper">
+                    <button><BsBookmark/> </button>
+                    <p>saved</p>
+                    </div>
                     <button>👎<span>11 dilikes</span></button>                    
                     <button><BsBookmark/> <span>saved</span></button>                    
                     <button><GoComment/>   <span>comment</span></button>                    
