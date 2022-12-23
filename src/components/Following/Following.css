@@ -1,6 +1,6 @@
 .following-card{
     width: 300px;
-    background-color: rgb(234, 247, 255);
+    background:linear-gradient(to right top , #ecfbfd,rgb(240, 249, 255));
     /* filter: blur(1px); */
     display: flex;
     padding: 0.4rem 1.5rem;

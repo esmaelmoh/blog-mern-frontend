@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Register.css'
 import Axios from 'axios'
-import { Navigate, useNavigate } from 'react-router-dom'
+import { Link, Navigate, useNavigate } from 'react-router-dom'
 const Register = () => {
 
   const [username,setUsername]= useState('')
@@ -37,7 +37,7 @@ const Register = () => {
                   <button type="submit" className='register-btn-new' >Register</button>
                   <div className="line"></div>
                   <button type="submit" className='register-btn-new'>Sign In With Google  </button>
-                  <p style={{color:'white',paddingTop:'0.7rem', textAlign:'center'}}>Don't have an account? <span style={{color:'#00e0ff',fontWeight:'bold'}}>Sign Up Now!</span> </p>
+                  <p style={{color:'white',paddingTop:'0.7rem', textAlign:'center'}}>Already have an account? <span style={{color:'#00e0ff',fontWeight:'bold'}}><Link to='/login'>Sign In Now!</Link> </span> </p>
               </form></section>  
           </div>
           </div>

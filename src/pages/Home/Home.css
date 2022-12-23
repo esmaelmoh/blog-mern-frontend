@@ -1,5 +1,8 @@
 .home-container{
-    display: flex;
+    /* display: flex; */
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 23rem;
     gap: 3rem;
     height: 100vh;
     width: 100vw;

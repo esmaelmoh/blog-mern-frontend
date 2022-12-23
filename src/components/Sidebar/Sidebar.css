@@ -15,9 +15,9 @@
     align-items: center;
     flex-direction: column;
     /* justify-content: center; */
-    width: 300px;
+    /* width: 300px; */
     /* gap: 2rem; */
-    position: fixed;
+    /* position: fixed; */
     height: 100vh;
     background-color: white;
 }

@@ -1,9 +1,16 @@
 .posts-container{
-    padding-top: 7rem;
+    /* position: relative; */
+    padding-top: 40rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 1.5rem;
-    margin-left: 280px;
+    height: 100vh;
+    overflow: auto;
+    /* overflow: scroll; */
+    /* margin-left: 280px; */
 }
+.posts-container::-webkit-scrollbar {
+    display: none;
+  }
