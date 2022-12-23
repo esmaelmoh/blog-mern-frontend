@@ -57,7 +57,7 @@ const PostShare = () => {
         <div className="postOptions">
           <div className="option" 
           >
-            <select name="" id="" onChange={(e)=>setCagagory(e.target.value)}>
+            <select name="" id="" defaultValue='News' onChange={(e)=>setCagagory(e.target.value)}>
               <option value="News">News</option>
               <option value="Business">Business</option>
               <option value="Science">science</option>
