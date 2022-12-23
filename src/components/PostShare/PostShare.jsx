@@ -26,6 +26,7 @@ const PostShare = () => {
   return (
     <div className="PostShare">
       <img src='./profilepic.jpg' alt="" />
+      <form action="">
       <div>
         <textarea type="text" placeholder="What's happening" />
         <div className="postOptions">
@@ -45,7 +46,7 @@ const PostShare = () => {
             Photo
           </div>
           
-          <button className="ps-button">Share</button>
+          <button className="ps-button" type="submit">Share</button>
           <div style={{ display: "none" }}>
             <input
               type="file"
@@ -66,6 +67,7 @@ const PostShare = () => {
 
 
       </div>
+      </form>
     </div>
   );
 };
