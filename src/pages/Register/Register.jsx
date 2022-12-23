@@ -8,9 +8,15 @@ const Register = () => {
   const [email,setEmail]= useState('')
   console.log(username,password,email)
 
-  const handleChange = (e)=>{
+  const handleChange = async(e)=>{
     e.preventDefault()
-
+    try {
+      const user = await Axios.post({username,password,email})
+      console.log(user)
+      
+    } catch (error) {
+      console.log(error)
+    }
   }
     return (
         <div className='register-container'>
