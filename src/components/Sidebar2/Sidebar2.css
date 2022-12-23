@@ -3,21 +3,17 @@
     /* src:url(../../fonts/JosefinSans-VariableFont_wght.ttf)  */
     src:url(../../fonts/JosefinSans-VariableFont_wght.ttf) 
   } 
-/* .container{
-    background-color: rgb(229, 255, 246);
-    width: 100vw;
-    height: 100vh;
-} */
-
-.sidebar{
+.sidebar2{
     font-family: 'newfont';
     display: flex;
     align-items: center;
     flex-direction: column;
     /* justify-content: center; */
-    width: 300px;
+    width: 360px;
     /* gap: 2rem; */
     position: fixed;
+    right: 0;
+    top: o;
     height: 100vh;
     background-color: white;
 }
@@ -27,10 +23,10 @@
     width: 100px;
     border-radius: 50px;
 }
-.sidebar-menus{
+.sidebar2-menus{
     
 }
-.sidebar-menus .menu-container{
+.sidebar2-menus .menu-container{
     margin: 3rem 0;
     display: flex;
     padding: 0.3rem 0;
@@ -39,10 +35,10 @@
     /* justify-content: space-between; */
     border-bottom: 1px solid rgba(0, 0, 0, 0.185);
 }
-.sidebar-menus .menu-container h3{
+.sidebar2-menus .menu-container h3{
    color: rgba(0, 0, 0, 0.747);
 }
-.sidebar-menus .menu-container h1{
+.sidebar2-menus .menu-container h1{
    color:rgb(0, 143, 124);
 }
 h4{

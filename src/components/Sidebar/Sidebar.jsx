@@ -11,7 +11,7 @@ const Sidebar = () => {
     <section className='container'>
         <div className="sidebar">
             <div className="img-container">
-                <img src="./profilepic.jpg" alt="" />
+                <img className='img' src="./profilepic.jpg" alt="" />
             </div>
             <h4>Esmael Mohammed</h4>
             <br /><br />
@@ -34,7 +34,7 @@ const Sidebar = () => {
                 </div>
                 <div className="menu-container">
                     <h1><CgProfile/></h1>
-                    <h3>My Profie</h3>
+                    <h3>My Profile</h3>
                 </div>
                 <div className="menu-container">
                     <h1><FiSettings/></h1>

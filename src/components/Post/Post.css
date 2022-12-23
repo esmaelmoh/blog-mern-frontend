@@ -14,6 +14,7 @@
     min-width: 500px;
     max-width: 900px;
     display: flex;
+    border-radius: 10px;
     align-items: center;
     background-color: rgb(247, 255, 254);
     gap: 1rem;
@@ -28,6 +29,9 @@
 .content-container h3,.blog-content{
     padding: 2rem;  
     padding-top: 0;
+}
+.catagory{
+    color: rgb(255, 84, 32);
 }
 .content-container ul{
     display: flex;

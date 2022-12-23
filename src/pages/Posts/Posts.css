@@ -1,7 +1,9 @@
 .posts-container{
+    padding-top: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 1.5rem;
+    margin-left: 280px;
 }

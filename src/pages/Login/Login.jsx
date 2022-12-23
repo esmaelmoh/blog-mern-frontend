@@ -1,14 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Login.css'
 import {GrGoogle} from 'react-icons/gr'
 const Login = () => {
+  const [username,setUsername] = useState('esmael mohammed')
+  const [password,setPassword] = useState('')
   return (
   <div className='login-container'>
-    {/* <div className="login-container-left">
-        <img src="./images/icon.png"data-aos="flip-right" data-aos-duration="2000" className='welcome-icon' alt="" />
-        <h1 className='welcome-eng'>Welcome</h1>
-        <h1 data-aos="zoom-in-up" data-aos-duration="2000" >እንኳን ደህና መጡ</h1>
-    </div> */}
     <div className="login-container-right">
     <section className='newone'>
       <form action=""className='login-form-new'>

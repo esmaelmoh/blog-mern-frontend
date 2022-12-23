@@ -9,7 +9,7 @@ const Post = () => {
                 <img src="./background5.jpg" alt="" srcset="" />
             </div>
             <div className="content-container">
-                <h3>News</h3>
+                <h3 className='catagory'>News</h3>
                 <p className='blog-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus illo suscipit non ut sed, 
                     iure dolore laudantium et quibusdam error modi maiores animi incidunt omnis veritat\s? 
                     Voluptates eligendi alias esse.</p>
