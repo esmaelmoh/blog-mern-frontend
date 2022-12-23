@@ -18,6 +18,7 @@ const PostShare = () => {
 
   const handleSubmit = async(e)=>{
       e.preventDefault()
+      console.log(content,title,catagory)
       try {
         const blog = await Axios.post('http://localhost:5000/api/blogs/',{title,content,catagory})
         console.log(blog)
