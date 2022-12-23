@@ -12,7 +12,7 @@ const PostShare = () => {
   const [image, setImage] = useState(null);
   const imageRef = useRef();
 
-  console.log(image.image)
+  console.log(image)
   const [title,setTitle] = useState('')
   const [content,setContent] = useState('')
   const [catagory,setCagagory] = useState('')
