@@ -11,11 +11,11 @@ const Register = () => {
             <form action=""className='register-form-new'>
                   <h1 className='register-title-new'>Register</h1>
                   <label htmlFor="">Username:</label>
-                  <input type="text" name className='register-input-field-new'  id="" />
+                  <input type="text" name className='register-input-field-new' onChange={(e)=>setUsername(e.target.value)} id="" />
                   <label htmlFor="">Password:</label>
-                  <input type="password" name className='register-input-field-new'  id="" />
+                  <input type="password" name className='register-input-field-new' onChange={(e)=>setPassword(e.target.value)} id="" />
                   <label htmlFor="">Email Adress:</label>
-                  <input type="email" name className='register-input-field-new'  id="" />
+                  <input type="email" name className='register-input-field-new' onChange={(e)=>setEmail(e.target.value)}  id="" />
                   <br /><br />
                   <button type="submit" className='register-btn-new'>Register</button>
                   <div className="line"></div>
