@@ -33,7 +33,6 @@ const PostShare = () => {
           await Axios.post(`http://localhost:5000/api/upload`, data);
         } catch (err) {}
       }
-      // newBlog.image = filename
       try {
         const blog = await Axios.post('http://localhost:5000/api/blogs/',newBlog)
         console.log(blog.data)
