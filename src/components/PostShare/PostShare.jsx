@@ -45,7 +45,7 @@ const PostShare = () => {
         <div className="postOptions">
           <div className="option" 
           >
-            <select name="" id="">
+            <select name="" id="" onChange={(e)=>setContent(e.target.value)}>
               <option value="news">News</option>
               <option value="business">Business</option>
               <option value="science">science</option>
