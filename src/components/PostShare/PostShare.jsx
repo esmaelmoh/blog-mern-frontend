@@ -22,9 +22,9 @@ const PostShare = () => {
       const newBlog = {title,content,catagory}
       if (image) {
         const data =new FormData();
-        const filename = Date.now() + file.name;
+        const filename = Date.now() + image.name;
         data.append("name", filename);
-        data.append("file", file);
+        data.append("file", image);
         newBlog.image = filename;
         try {
           await Axios.post(`${url}api/upload`, data);
