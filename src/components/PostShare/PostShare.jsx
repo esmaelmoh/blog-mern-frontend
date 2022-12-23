@@ -16,10 +16,11 @@ const PostShare = () => {
   const [content,setContent] = useState('')
   const [catagory,setCagagory] = useState('')
 
-  const handleSubmit = (e)=>{
+  const handleSubmit = async(e)=>{
       e.preventDefault()
       try {
-        Axios
+        const blog = await Axios.post('http://localhost:5000/api/blogs/',{title,content,catagory})
+        console.log(blog)
       } catch (error) {
         console.log()
       }
