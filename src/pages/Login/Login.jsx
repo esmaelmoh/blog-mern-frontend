@@ -3,20 +3,19 @@ import './Login.css'
 import {GrGoogle} from 'react-icons/gr'
 import Axios  from 'axios'
 import { Navigate, useNavigate } from 'react-router-dom'
+
 const Login = () => {
 
   const [username,setUsername] = useState('esmael mohammed')
   const [password,setPassword] = useState('')
-
   const navigate= useNavigate()
 
   const handleLogin = async(e)=>{
-
     e.preventDefault()
     try {
       const user = await Axios.post('http://localhost:5000/api/auth/login',{username,password})
       console.log(user.data)      
-      Navigate('/')
+      navigate('/')
     } catch (error) {
       console.log(error)
     }
