@@ -12,6 +12,7 @@ const PostShare = () => {
   const [image, setImage] = useState(null);
   const imageRef = useRef();
 
+  console.log(image)
   const [title,setTitle] = useState('')
   const [content,setContent] = useState('')
   const [catagory,setCagagory] = useState('')
@@ -25,7 +26,7 @@ const PostShare = () => {
         const filename = Date.now() + image.name;
         data.append("name", filename);
         data.append("file", image);
-        newBlog.image.image = filename;
+        newBlog.image = filename;
         try {
           await Axios.post(`http://localhost:5000/api/upload`, data);
         } catch (err) {}
