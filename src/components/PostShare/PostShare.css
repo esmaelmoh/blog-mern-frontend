@@ -50,6 +50,17 @@ select{
     border: none;
     outline: none;
 }
+.PostShare>form>div>input{
+    background-color:rgb(224, 249, 253);
+    border-radius: 10px;
+    width: 450px;
+    padding-bottom: 1rem;
+    padding: 10px;
+    height: 40px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
 
 
 
