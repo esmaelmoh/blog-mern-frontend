@@ -1,18 +1,19 @@
 import React, { useState } from 'react'
 import './Register.css'
 import Axios from 'axios'
+import { Navigate, useNavigate } from 'react-router-dom'
 const Register = () => {
 
   const [username,setUsername]= useState('')
   const [password, setPassword]= useState('')
   const [email,setEmail]= useState('')
-  console.log(username,password,email)
-
+  const navigate = useNavigate()
   const handleSubmit = async(e)=>{
     e.preventDefault()
     try {
       const user = await Axios.post('http://localhost:5000/api/auth/register',{username,password,email})
       console.log(user.data)
+      navigate('/login')
     } catch (error) {
       console.log(error)
     }
