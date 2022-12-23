@@ -9,9 +9,9 @@ import Register from './pages/Register/Register';
 function App() {
   return (
     < >
-      {/* <Register/>
-      <Login/> */}
-      <Home/>
+      <Register/>
+      {/* <Login/> */}
+      {/* <Home/> */}
     </>
   );
 }

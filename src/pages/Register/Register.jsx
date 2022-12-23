@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Register.css'
 const Register = () => {
+  const [username,setUsername]= useState('')
+  const [password, setPassword]= useState('')
+  const [email,setEmail]= useState('')
     return (
         <div className='register-container'>
           <div className="register-container-right">
