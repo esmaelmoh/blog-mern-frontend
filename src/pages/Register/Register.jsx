@@ -11,9 +11,8 @@ const Register = () => {
   const handleChange = async(e)=>{
     e.preventDefault()
     try {
-      const user = await Axios.post({username,password,email})
+      const user = await Axios.post('http://localhost:5000/api/auth/register',{username,password,email})
       console.log(user)
-      
     } catch (error) {
       console.log(error)
     }
