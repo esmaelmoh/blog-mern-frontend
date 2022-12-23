@@ -30,6 +30,9 @@ select{
     border-width: 2px;
     margin-right: 0.3rem;
 }
+.input-title{
+    height: 40px;
+}
 .PostShare>div{
     display: flex;
     flex-direction: column;
