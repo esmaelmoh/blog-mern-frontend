@@ -3,11 +3,6 @@ import './Register.css'
 const Register = () => {
     return (
         <div className='register-container'>
-          {/* <div className="register-container-left">
-              <img src="./images/icon.png"data-aos="flip-right" data-aos-duration="2000" className='welcome-icon' alt="" />
-              <h1 className='welcome-eng'>Welcome</h1>
-              <h1 data-aos="zoom-in-up" data-aos-duration="2000" >እንኳን ደህና መጡ</h1>
-          </div> */}
           <div className="register-container-right">
           <section className='newone'>
             <form action=""className='register-form-new'>
