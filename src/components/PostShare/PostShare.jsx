@@ -44,9 +44,11 @@ const PostShare = () => {
   const onImageChange = (event) => {
     if (event.target.files && event.target.files[0]) {
       let img = event.target.files[0];
-      setImage({
-        image: URL.createObjectURL(img),
-      });
+      setImage( 
+      //   {
+      //   image: URL.createObjectURL(img),
+      // }
+      );
     }
   };
   return (
