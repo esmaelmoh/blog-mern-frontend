@@ -1,14 +1,26 @@
 import React, { useState } from 'react'
 import './Login.css'
 import {GrGoogle} from 'react-icons/gr'
+import Axios  from 'axios'
 const Login = () => {
+
   const [username,setUsername] = useState('esmael mohammed')
   const [password,setPassword] = useState('')
+
+  const handleLogin = async(e)=>{
+    e.preventDefault()
+    try {
+      const user = await Axios.post('handleLogin',{username,password})
+      console.log(user.data)      
+    } catch (error) {
+      console.log(error)
+    }
+  }
   return (
   <div className='login-container'>
     <div className="login-container-right">
     <section className='newone'>
-      <form action=""className='login-form-new'>
+      <form action=""className='login-form-new' onSubmit={handleLogin}>
             <h1 className='login-title-new'>Login</h1>
             <label htmlFor="">Username:</label>
             <input type="text" name className='login-input-field-new'  id="" />
