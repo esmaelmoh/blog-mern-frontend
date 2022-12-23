@@ -19,18 +19,20 @@ const PostShare = () => {
   const handleSubmit = async(e)=>{
       e.preventDefault()
       console.log(content,title,catagory)
+      const newBlog = {title,content,catagory}
       if (image) {
         const data =new FormData();
         const filename = Date.now() + file.name;
         data.append("name", filename);
         data.append("file", file);
-        newPc.pcImage = filename;
+        newBlog.image = filename;
         try {
           await Axios.post(`${url}api/upload`, data);
         } catch (err) {}
       }
+      // newBlog.image = filename
       try {
-        const blog = await Axios.post('http://localhost:5000/api/blogs/',{title,content,catagory})
+        const blog = await Axios.post('http://localhost:5000/api/blogs/',newBlog)
         console.log(blog)
       } catch (error) {
         console.log()
