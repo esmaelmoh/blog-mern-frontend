@@ -11,6 +11,10 @@ const PostShare = () => {
   const [image, setImage] = useState(null);
   const imageRef = useRef();
 
+  const [title,setTitle] = useState('')
+  const [content,setContent] = useState('')
+  const [catagory,setCagagory] = useState('')
+
   const onImageChange = (event) => {
     if (event.target.files && event.target.files[0]) {
       let img = event.target.files[0];
