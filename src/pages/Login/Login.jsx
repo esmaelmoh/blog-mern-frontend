@@ -23,9 +23,9 @@ const Login = () => {
       <form action=""className='login-form-new' onSubmit={handleLogin}>
             <h1 className='login-title-new'>Login</h1>
             <label htmlFor="">Username:</label>
-            <input type="text" name className='login-input-field-new'  id="" />
+            <input type="text" name className='login-input-field-new' onChange={(e)=>setUsername(e.target.value)}  id="" />
             <label htmlFor="">Password:</label>
-            <input type="password" name className='login-input-field-new'  id="" />
+            <input type="password" name className='login-input-field-new' onChange={(e)=>setPassword(e.target.value)}   id="" />
             <br /><br />
             <button type="submit" className='login-btn-new'>Login</button>
             <div className="line"></div>
