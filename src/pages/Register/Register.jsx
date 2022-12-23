@@ -12,7 +12,7 @@ const Register = () => {
     e.preventDefault()
     try {
       const user = await Axios.post('http://localhost:5000/api/auth/register',{username,password,email})
-      console.log(user)
+      console.log(user.data)
     } catch (error) {
       console.log(error)
     }
