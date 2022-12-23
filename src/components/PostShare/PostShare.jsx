@@ -13,7 +13,7 @@ const PostShare = () => {
   const imageRef = useRef();
 
   console.log(image)
-  
+
   const [title,setTitle] = useState('')
   const [content,setContent] = useState('')
   const [catagory,setCagagory] = useState('')
@@ -26,7 +26,7 @@ const PostShare = () => {
         const data =new FormData();
         const filename = Date.now() + image.name;
         data.append("name", filename);
-        data.append("file", image.image);
+        data.append("file", image);
         newBlog.image = filename;
         console.log(filename)
         try {
