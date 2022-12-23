@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import Axios from 'axios'
 import "./PostShare.css";
 import { UilScenery } from "@iconscout/react-unicons";
 import { UilPlayCircle } from "@iconscout/react-unicons";
@@ -15,6 +16,15 @@ const PostShare = () => {
   const [content,setContent] = useState('')
   const [catagory,setCagagory] = useState('')
 
+  const handleSubmit = (e)=>{
+      e.preventDefault()
+      try {
+        Axios
+      } catch (error) {
+        console.log()
+      }
+  }
+
   const onImageChange = (event) => {
     if (event.target.files && event.target.files[0]) {
       let img = event.target.files[0];
@@ -26,7 +36,7 @@ const PostShare = () => {
   return (
     <div className="PostShare">
       <img src='./profilepic.jpg' alt="" />
-      <form action="">
+      <form action="" onSubmit={handleSubmit}>
       <div>
         <textarea type="text" placeholder="What's happening" />
         <div className="postOptions">
