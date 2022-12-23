@@ -46,9 +46,9 @@ const PostShare = () => {
           <div className="option" 
           >
             <select name="" id="" onChange={(e)=>setContent(e.target.value)}>
-              <option value="news">News</option>
-              <option value="business">Business</option>
-              <option value="science">science</option>
+              <option value="News">News</option>
+              <option value="Business">Business</option>
+              <option value="Science">science</option>
             </select>
               <label htmlFor="">Catagory</label>
           </div>
