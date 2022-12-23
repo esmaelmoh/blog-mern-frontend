@@ -5,6 +5,10 @@ const Register = () => {
   const [password, setPassword]= useState('')
   const [email,setEmail]= useState('')
   console.log(username,password,email)
+
+  const handleChange = (e)=>{
+    e.preventDefault()
+  }
     return (
         <div className='register-container'>
           <div className="register-container-right">
@@ -18,7 +22,7 @@ const Register = () => {
                   <label htmlFor="">Email Adress:</label>
                   <input type="email" name className='register-input-field-new' onChange={(e)=>setEmail(e.target.value)}  id="" />
                   <br /><br />
-                  <button type="submit" className='register-btn-new'>Register</button>
+                  <button type="submit" className='register-btn-new' onChange={handleChange}>Register</button>
                   <div className="line"></div>
                   <button type="submit" className='register-btn-new'>Sign In With Google  </button>
                   <p style={{color:'white',paddingTop:'0.7rem', textAlign:'center'}}>Don't have an account? <span style={{color:'#00e0ff',fontWeight:'bold'}}>Sign Up Now!</span> </p>
