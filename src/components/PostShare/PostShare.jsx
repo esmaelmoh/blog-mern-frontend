@@ -40,7 +40,7 @@ const PostShare = () => {
       <img src='./profilepic.jpg' alt="" />
       <form action="" onSubmit={handleSubmit}>
       <div>
-        <input type="text" placeholder="Title..." onChange={(e)=>setContent(e.target.value)} className="input-title" />
+        <input type="text" placeholder="Title..." onChange={(e)=>setTitle(e.target.value)} className="input-title" />
         <textarea type="text" placeholder="What's happening" onChange={(e)=>setContent(e.target.value)} className="textarea" />
         <div className="postOptions">
           <div className="option" 
