@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './Register.css'
+import Axios from 'axios'
 const Register = () => {
+
   const [username,setUsername]= useState('')
   const [password, setPassword]= useState('')
   const [email,setEmail]= useState('')
@@ -8,6 +10,7 @@ const Register = () => {
 
   const handleChange = (e)=>{
     e.preventDefault()
+
   }
     return (
         <div className='register-container'>
